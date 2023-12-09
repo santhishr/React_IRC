@@ -1,0 +1,36 @@
+.nav
+{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    background-color: tomato;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+    height:1.5cm;
+    border-radius: 10px;
+    background: #f12711;  /* fallback for old browsers */
+
+}
+.body{
+    background: #FEAC5E;
+}
+
+
+.nav a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+
+}
+
+.div r
+{
+    float: right;
+    padding-right: 5cm;
+}
+
