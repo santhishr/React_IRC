@@ -1,10 +1,13 @@
-function Footer(){
-    return (
+
+function Footer()
+{
+    return(
         <>
-        <p>
-        Hi
-        </p> 
+        <div>
+            <button onclick="functionTOExecute" className="username">username</button>
+            <button onclick="functionTOExecute" className="email">username</button>
+        </div>
         </>
     )
 }
-export default Footer;
+export default Footer

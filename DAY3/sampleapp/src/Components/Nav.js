@@ -1,8 +1,13 @@
-function Nav(){
-    return (
+function Nav()
+{
+    return(
         <>
-        HELLO
+        <div className="login">
+        <body className="login2">
+            <Body ></Body>
+        </body>
+        </div>
         </>
     )
 }
-export default Nav;
+export default Nav
