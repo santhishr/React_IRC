@@ -1,0 +1,101 @@
+/* .material-icons-outlined{
+  padding: 10px;
+  align-items: row;
+} */
+body{
+  margin: 0px;
+  background-color: red;
+}
+.theme-secondary{
+  background-color: white;
+}
+.theme-bg{
+  background-color: crimson;
+}
+.borderrad
+{
+  border-radius: 10px;
+}
+.hv-10{
+  height: 10vh;
+}
+.hv-5{
+  height: 5vh;
+}
+.hv-20{
+  height: 20vh;
+}
+.hv-100
+{
+  height: 100vh;
+}
+.hv-90{
+  height: 90vh;
+}
+.hv-95{
+  height: 95vh;
+}
+.hv-80{
+  height: 80vh;
+}
+.wv-50
+{
+  width: 50vw;
+}
+.wv-100{
+  width: 100vw;
+}
+.wv-10{
+  width: 10vw;
+}
+.wv-20{
+  width: 20vw;
+}
+.wv-90{
+  width: 90vw;
+}
+.wv-80{
+  width: 80vw;
+}
+.m-1{
+  margin: 1rem;
+}
+.mx-1{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.my-1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.marginzero{
+  margin: 0px;
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.flex-row{
+  flex-direction: row;
+}
+.item-center{
+  align-self: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-start{
+  justify-content: start;
+}
+.justify-end{
+  justify-content: end;
+}
+.login{
+  float: right;
+}
+.gap{
+  gap: 10px;
+}
+

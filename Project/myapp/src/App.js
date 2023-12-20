@@ -1,9 +1,10 @@
 import React from 'react'
-import index from 'index'
-import Home from '../Comp/Home' 
+import Dash from './Comp/Dash'
+import './asset/Dash.css'
+
 function App() {
   return (
-    <Home/>
+    <Dash/>
   )
 }
 export default App
