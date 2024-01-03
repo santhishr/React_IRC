@@ -13,16 +13,17 @@ function Users() {
       console.log(e);
     }
   }
-  const handleDetele = async(id)=>{
+  const handleDelete = async(id)=>{
     try{
       const res=await deleteUser(id)
       if(res.status ==200){
         alert('deleted')
       }
     }
-  catch(e){
-    console.log(e)
+    catch(e){
+      console.log(e)
   }
+}
 }
   console.log(user);
   useEffect(() => {
@@ -58,5 +59,4 @@ function Users() {
       </table>
     </>
   );
-}
 export default Users

@@ -7,9 +7,18 @@ const Adduser =()=>{
   const handleChange =(e)=>{
     setData({...data})
   }
-  const handleSubmit =(e)=>{
+  const handleSubmit =async(a)=>{
     e.preventDefault();
-  }
+    try{
+      const res=await Adduser(data)
+      if(res.status){
+        alert
+      }
+    }
+    catch(e){
+      console.log(e)
+    } 
+    }
 }
 function Adduser() {
   return (
@@ -21,5 +30,4 @@ function Adduser() {
     </form>
   )
 }
-
 export default Adduser
