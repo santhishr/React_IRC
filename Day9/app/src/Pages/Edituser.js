@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Edituser() {
   return (
     <form>
@@ -10,5 +9,4 @@ function Edituser() {
     </form>
   )
 }
-
 export default Edituser
